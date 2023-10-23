@@ -12,9 +12,6 @@ image_url = data['hdurl']
 date = data["date"]
 content = data['explanation']
 
-print(data)
-
-
 
 st.title(title)
 st.image(image_url)
